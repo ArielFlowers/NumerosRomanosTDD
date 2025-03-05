@@ -1,5 +1,6 @@
 export function convertirARomano(num) {
     const valores = [
+        { valor: 4, simbolo: "IV" },
         { valor: 1, simbolo: "I" }
     ];
 
