@@ -45,4 +45,7 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(900)).toEqual("CM");
   });
 
+  it("debería convertir 1000 a 'M'", () => {
+    expect(convertirARomano(1000)).toEqual("M");
+  });
 });

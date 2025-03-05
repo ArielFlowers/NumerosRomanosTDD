@@ -1,5 +1,6 @@
 export function convertirARomano(num) {
     const valores = [
+        { valor: 1000, simbolo: "M" },
         { valor: 900, simbolo: "CM" },
         { valor: 500, simbolo: "D" },
         { valor: 400, simbolo: "CD" },
