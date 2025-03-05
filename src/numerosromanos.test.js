@@ -41,4 +41,8 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(500)).toEqual("D");
   });
 
+  it("debería convertir 900 a 'CM'", () => {
+    expect(convertirARomano(900)).toEqual("CM");
+  });
+
 });
