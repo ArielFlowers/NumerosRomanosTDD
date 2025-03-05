@@ -25,4 +25,8 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(50)).toEqual("L");
   });
 
+  it("debería convertir 90 a 'XC'", () => {
+    expect(convertirARomano(90)).toEqual("XC");
+  });
+
 });
