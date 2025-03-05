@@ -37,4 +37,8 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(400)).toEqual("CD");
   });
 
+  it("debería convertir 500 a 'D'", () => {
+    expect(convertirARomano(500)).toEqual("D");
+  });
+
 });
