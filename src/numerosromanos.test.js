@@ -17,4 +17,8 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(10)).toEqual("X");
   });
 
+  it("debería convertir 40 a 'XL'", () => {
+    expect(convertirARomano(40)).toEqual("XL");
+  });
+
 });
