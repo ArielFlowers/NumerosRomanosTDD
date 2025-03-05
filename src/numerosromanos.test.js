@@ -9,4 +9,7 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(4)).toEqual("IV");
   });
 
+  it("debería convertir 9 a 'IX'", () => {
+    expect(convertirARomano(9)).toEqual("IX");
+  });
 });
