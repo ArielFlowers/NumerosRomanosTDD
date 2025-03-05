@@ -12,4 +12,9 @@ describe("Conversión a números romanos", () => {
   it("debería convertir 9 a 'IX'", () => {
     expect(convertirARomano(9)).toEqual("IX");
   });
+
+  it("debería convertir 10 a 'X'", () => {
+    expect(convertirARomano(10)).toEqual("X");
+  });
+
 });
