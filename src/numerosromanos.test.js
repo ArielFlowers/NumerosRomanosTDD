@@ -21,4 +21,8 @@ describe("Conversión a números romanos", () => {
     expect(convertirARomano(40)).toEqual("XL");
   });
 
+  it("debería convertir 50 a 'L'", () => {
+    expect(convertirARomano(50)).toEqual("L");
+  });
+
 });
