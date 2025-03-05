@@ -5,3 +5,4 @@ describe("Multiplicar", () => {
     expect(multiplicar(3, 2)).toEqual(6);
   });
 });
+
